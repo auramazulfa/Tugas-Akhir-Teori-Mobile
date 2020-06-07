@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/khutbah_border"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WAKTU KHUTBAH"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <TextView
+            android:id="@+id/tv_itemlist_waktu"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/black"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/margin_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAMA KHATIB"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <TextView
+            android:id="@+id/tv_itemlist_khatib"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/black"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/margin_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ISI KHUTBAH"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <TextView
+            android:id="@+id/tv_itemlist_khutbah"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_marginTop="@dimen/margin_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DELETE"/>
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_marginTop="@dimen/margin_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPDATE"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
